@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://badger-book-club.example.com/</loc>
+    <lastmod>2025-01-05</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://badger-book-club.example.com/about</loc>
+    <lastmod>2025-01-05</lastmod>
+  </url>
+  <url>
+    <loc>https://badger-book-club.example.com/gallery</loc>
+    <lastmod>2025-01-05</lastmod>
+  </url>
+  <url>
+    <loc>https://badger-book-club.example.com/events</loc>
+    <lastmod>2025-01-05</lastmod>
+  </url>
+  <url>
+    <loc>https://badger-book-club.example.com/blog</loc>
+    <lastmod>2025-01-05</lastmod>
+  </url>
+</urlset>
