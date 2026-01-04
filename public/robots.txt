@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://badger-book-club.example.com/sitemap.xml
