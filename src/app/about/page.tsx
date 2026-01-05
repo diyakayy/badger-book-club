@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Button from '@/components/Button';
+import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'About | Badger Book Club',
@@ -75,8 +76,8 @@ export default function AboutPage() {
           </p>
 
           <div className="flex gap-4">
-            <Button href="/join">Join the Club</Button>
-            <Button href="/events" variant="secondary">View Events</Button>
+            <Link href="/join"><Button>Join the Club</Button></Link>
+            <Link href="/events"><Button variant="secondary">View Events</Button></Link>
           </div>
         </div>
       </div>
