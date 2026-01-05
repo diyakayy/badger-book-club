@@ -60,27 +60,7 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         
         <p className="text-lg text-charcoal/70 mb-8">By {post.author}</p>
 
-        <div className="prose prose-lg max-w-none">
-          {post.content.split('\n\n').map((paragraph, index) => {
-            // Check if it's a heading (starts with **)
-            if (paragraph.startsWith('**') && paragraph.endsWith('**')) {
-              const headingText = paragraph.replace(/\*\*/g, '');
-              return (
-                <h2 key={index} className="font-serif text-3xl mt-12 mb-6 first:mt-0">
-                  {headingText}
-                </h2>
-              );
-            }
-            
-            // Regular paragraph
-            return (
-              <p key={index} className="text-lg leading-relaxed text-charcoal/80 mb-6">
-                {paragraph}
-              </p>
-            );
-          })}
-        </div>
-
+        
         <div className="mt-16 pt-8 border-t border-charcoal/10">
           <Link 
             href="/blog" 
