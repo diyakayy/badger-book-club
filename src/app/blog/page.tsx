@@ -1,5 +1,5 @@
-import import BlogCard from '@/components/BlogCard';
-import { blogPosts } from '@/data/blog';
+import BlogCard from '@/components/BlogCard';
+  mport { blogPosts } from '@/data/blog';
 
 export default function BlogPage() {
   return (
