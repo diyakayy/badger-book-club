@@ -9,13 +9,13 @@ interface BlogPostPageProps {
 
 export async function generateStaticParams() {
   return blogPosts.map((post) => ({
-    slug: post.slug,
+    slug: post.id,
   }));
 }
 
 export async function generateMetadata({ params }: BlogPostPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const post = blogPosts.find(p => p.slug === slug);
+  const post = blogPosts.find(p => p.id === slug);
   
   if (!post) {
     return {
