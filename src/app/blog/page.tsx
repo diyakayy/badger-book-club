@@ -1,4 +1,4 @@
-import { BlogCard } from '@/components/BlogCard';
+import import BlogCard from '@/components/BlogCard';
 import { blogPosts } from '@/data/blog';
 
 export default function BlogPage() {
