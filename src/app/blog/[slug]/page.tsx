@@ -52,7 +52,6 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
 
         <div className="flex items-center gap-3 mb-6">
           <span className="px-3 py-1 rounded-full bg-blush text-charcoal text-sm font-medium">
-            {post.tag}
           </span>
           <span className="text-sm text-charcoal/60">{post.date}</span>
         </div>
