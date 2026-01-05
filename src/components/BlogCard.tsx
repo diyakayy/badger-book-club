@@ -7,7 +7,7 @@ interface BlogCardProps {
 
 export default function BlogCard({ post }: BlogCardProps) {
   return (
-    <Link href={`/blog/${post.slug}`} className="group block">
+    <Link href={`/blog/${post.id}`} className="group block">
       <article className="bg-cream border border-charcoal/10 rounded-lg p-6 shadow-sm hover:shadow-md transition-all">
         <div className="flex items-center gap-3 mb-3">
           <span className="px-3 py-1 rounded-full bg-blush text-charcoal text-xs font-medium">
